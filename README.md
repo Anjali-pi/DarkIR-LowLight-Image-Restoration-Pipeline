@@ -239,11 +239,6 @@ Performed both qualitative & quantitative analysis
 Dataset contains mixed images
 Some images include watermarks
 Synthetic darkening ≠ real low-light conditions
-Connection to IIT BHU Internship
-Applied DarkIR in image restoration domain
-Built pipeline relevant to document/image enhancement
-Demonstrates real-world applicability of research models
-
 
 #### Acknowledgement:
 
