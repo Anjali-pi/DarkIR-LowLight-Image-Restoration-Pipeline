@@ -40,15 +40,19 @@ DarkIR-LowLight-Image-Restoration/
 │
 
 ├── notebooks/
+
 │   ├── 1_DarkIR_SourceCode.ipynb
 │   └── 2_DarkIR_Implementation.ipynb
 │
 
 ├── results/
+
 │   ├── source_code/
+
 │   │   └── sample_comparison.png
 │   │
 │   └── implementation/
+
 │       ├── sample_1.png
 │       ├── sample_2.png
 │       ├── sample_3.png
