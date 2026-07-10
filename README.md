@@ -13,7 +13,7 @@ low-light image restoration model.
 and validated results on the standard LOLv2-Synthetic
 benchmark dataset.
 
-*Phase 2:Extended DarkIR with a custom
+* Phase 2:Extended DarkIR with a custom
 post-processing pipeline (**CLAHE + Unsharp Masking**)
 and applied it to low-light degraded images
 derived from the Ancient Chinese Classics dataset.
@@ -85,7 +85,7 @@ Step 3 — Pretrained Weights
   - `DarkIR_384.pt` → inference
 
 
-**Step 4 — Model Setup
+Step 4 — Model Setup
 
 - DarkIR-m configuration:
   - Width: 32
@@ -168,7 +168,7 @@ Formula:
 output = 1.5 × image − 0.5 × blurred
 
 
-## Implementation Steps
+###Implementation Steps
 
 1-Load pretrained DarkIR model
 
@@ -202,7 +202,7 @@ output = 1.5 × image − 0.5 × blurred
 
 16-Final	Sharp + clear output
 
-## Quantitative Results (20 Images)
+### Quantitative Results (20 Images)
 
 | Image | Dark Input | DarkIR | Pipeline | Gain |
 |------|-----------|--------|----------|------|
@@ -224,7 +224,7 @@ output = 1.5 × image − 0.5 × blurred
 - Pipeline: **101.8**  
 - Gain: **+71.0**
 
-#### Tools
+#### Tools:
 Python
 PyTorch
 OpenCV
@@ -232,13 +232,13 @@ NumPy
 Matplotlib
 basicsr
 
-#### Key Highlights
+#### Key Highlights:
 Successfully reproduced DarkIR results
 Designed a multi-stage restoration pipeline
 Combined deep learning + image processing
 Performed both qualitative & quantitative analysis
 
-#### Limitations
+#### Limitations:
 Dataset contains mixed images
 Some images include watermarks
 Synthetic darkening ≠ real low-light conditions
@@ -247,13 +247,13 @@ Applied DarkIR in image restoration domain
 Built pipeline relevant to document/image enhancement
 Demonstrates real-world applicability of research models
 
-#### Author
+#### Author:
 Anjali Singh Yadav
 B.Tech AI & ML
 IIMT College of Engineering
 IIT BHU Internship — Image Restoration
 
-#### Acknowledgement
+#### Acknowledgement:
 
 Based on DarkIR (CVPR 2025) by Feijoo et al.
 Official implementation and pretrained weights used.
