@@ -48,7 +48,6 @@ DarkIR-LowLight-Image-Restoration/
 ├── results/
 
 │   ├── source_code/
-
 │   │   └── sample_comparison.png
 │   │
 
