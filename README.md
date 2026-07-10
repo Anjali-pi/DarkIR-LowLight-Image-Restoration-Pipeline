@@ -32,15 +32,16 @@ watermarks present in the original data.
 ## Project Structure
 
 DarkIR-LowLight-Image-Restoration/
+
 │
 ├── README.md
-
 │
 ├── notebooks/
 
-│   ├── 1_DarkIR_SourceCode_Run.ipynb
+│   ├── 1_DarkIR_SourceCode.ipynb
 
 │   └── 2_DarkIR_Implementation.ipynb
+
 │
 ├── results/
 
