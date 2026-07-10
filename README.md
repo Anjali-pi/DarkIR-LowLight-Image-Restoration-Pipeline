@@ -216,11 +216,17 @@ output = 1.5 × image − 0.5 × blurred
 - Gain: **+71.0**
 
 #### Tools:
+
 Python
+
 PyTorch
+
 OpenCV
+
 NumPy
+
 Matplotlib
+
 basicsr
 
 #### Key Highlights:
