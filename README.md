@@ -147,7 +147,7 @@ dark_img = np.power(img / 255.0, 2.5) * 255
 
 
 
-## Proposed Pipeline
+## Proposed Pipeline:
 Input Image (Dark) → DarkIR → CLAHE → Sharpening → Final Output
 
 Step 1: DarkIR
@@ -168,7 +168,7 @@ Formula:
 output = 1.5 × image − 0.5 × blurred
 
 
-### Implementation Steps
+### Implementation Steps:
 
 1-Load pretrained DarkIR model
 
@@ -190,17 +190,6 @@ output = 1.5 × image − 0.5 × blurred
 
 10-Results
 
-11-Stage-wise Output
-
-12-Stage	Description
-
-13-Input	Dark image
-
-14-DarkIR	Bright + denoised
-
-15-CLAHE	Contrast enhanced
-
-16-Final	Sharp + clear output
 
 ### Quantitative Results (20 Images)
 
