@@ -52,7 +52,6 @@ DarkIR-LowLight-Image-Restoration/
 │   │
 
 │   └── implementation/
-
 │       ├── sample_1.png
 │       ├── sample_2.png
 │       ├── sample_3.png
